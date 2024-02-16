@@ -7,6 +7,6 @@
     comment-with-action:
        runs-on: ubuntu-latest
        steps:
-         -name:"dump githib context"
-          run: echo '${{toJSON(github.event)}}' | jq
-          shell: bash
+          - name: "dump githib context"
+            run: echo '${{ toJSON(github.event) }}' | jq
+            shell: bash
