@@ -19,6 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
-        run: echo "good bye "
+        run: echo "good bye1 "
         shell: bash  
       
